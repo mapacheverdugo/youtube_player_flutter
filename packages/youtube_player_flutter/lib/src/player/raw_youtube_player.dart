@@ -262,6 +262,7 @@ class _RawYoutubePlayerState extends State<RawYoutubePlayer>
                         'controls': 0,
                         'playsinline': 1,
                         'enablejsapi': 1,
+                        'enablecastapi': 1,
                         'fs': 0,
                         'rel': 0,
                         'showinfo': 0,

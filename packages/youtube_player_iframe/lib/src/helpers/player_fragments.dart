@@ -8,6 +8,7 @@ String playerVars(YoutubePlayerController controller) => '''
     'controls': ${_boolean(controller.params.showControls)},
     'playsinline': ${_boolean(controller.params.playsInline)},
     'enablejsapi': ${_boolean(controller.params.enableJavaScript)},
+    'enablecastapi': ${_boolean(controller.params.enableCast)},
     'fs': ${_boolean(controller.params.showFullscreenButton)},
     'rel': ${_boolean(!controller.params.strictRelatedVideos)},
     'showinfo': '0',
